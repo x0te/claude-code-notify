@@ -1,0 +1,25 @@
+{
+    "version":  3,
+    "enabled":  true,
+    "app":  {
+                "name":  "Claude Code",
+                "icon":  "✱",
+                "appId":  "ClaudeCode.Notify"
+            },
+    "notification":  {
+                         "emoji":  "💬",
+                         "text":  "답변이 필요해요~",
+                         "melodyPreset":  "doorbell",
+                         "customMelody":  null,
+                         "showSummary":  true,
+                         "playSound":  true
+                     },
+    "stop":  {
+                 "emoji":  "✨",
+                 "text":  "작업이 완료됐어요!",
+                 "melodyPreset":  "triumph",
+                 "customMelody":  null,
+                 "showSummary":  true,
+                 "playSound":  true
+             }
+}
